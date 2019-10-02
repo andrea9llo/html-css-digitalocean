@@ -1,0 +1,79 @@
+/* navbar sup */
+
+.nav-margin{
+  width: 98%;
+  margin: auto;
+  padding: 10px 0 0 0;
+}
+#button-nav{
+  font-size: 9px;
+  font-weight: 600;
+  padding: 2px 4px;
+  background: #00d7d2;
+}
+.a-nav{
+  color: #5b6987;
+  font-size: 12px;
+  font-weight: 600;
+}
+a:hover{
+  text-decoration: none;
+  color: #0069ff;
+}
+#menu-nav-sup{
+  text-align: right;
+  list-style-type: none;
+}
+.li-nav{
+  display: inline-block;
+  padding: 0 1%;
+}
+
+@media  screen and (max-width: 1048px) {
+  .nav-sup, .display-none, .menu-nav {
+    display: none;
+  }
+}
+@media  screen and (min-width: 1049px){
+  .menu-nav2{
+    display: none;
+  }
+}
+#margine-linea{
+  margin: 0;
+}
+/* nav inferiore */
+
+#logo{
+  width: 180px;
+}
+@media screen and (max-width: 250px) {
+  #logo{
+    width: 100px;
+    margin-top: 10px;
+  }
+
+}
+#centro{
+  padding-top: 10px;
+}
+.a-nav-inf{
+  color: #031b4e;
+}
+.menu-nav{
+  text-align: right;
+  padding-top: 3px;
+}
+.menu-nav2{
+  text-align: right;
+  padding-top: 10px;
+}
+#sign-up{
+  color: #0069ff;
+  border: 1px solid #0069ff;
+  font-weight: 600;
+}
+#sign-up:hover{
+  background: #0069ff;
+  color: white;
+}
