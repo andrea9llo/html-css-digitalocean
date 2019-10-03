@@ -26,9 +26,11 @@ a:hover{
   text-decoration: none;
   color: #0069ff;
 }
+li{
+  list-style-type: none;
+}
 #menu-nav-sup{
   text-align: right;
-  list-style-type: none;
 }
 .li-nav{
   display: inline-block;
@@ -208,4 +210,46 @@ span{
   text-align: center;
   font-size: 15px;
   margin-bottom: 60px;
+}
+
+/* blocco Deploy and scale */
+
+.padding{
+  padding: 100px 0 50px;
+}
+h2{
+  text-align: center;
+  font-size: 36px;
+  color: #031b4e;
+}
+.par-h2{
+  text-align: center;
+  font-size: 20px;
+  color: rgba(3,27,78,.7);
+  margin-bottom: 60px;
+}
+.menu-deploy{
+  color: rgba(3,27,78,.5);
+  border-left: solid 2px rgba(3,27,78,.5);
+  padding: 6%;
+  font-size: 17px;
+}
+.menu-deploy:hover{
+  cursor: pointer;
+  color: #031b4e;
+  border-left: solid 2px #0069ff;
+}
+.fa-tint{
+  color: #0069ff;
+}
+.color-h{
+  color: #031b4e;
+  font-size: 20px;
+}
+.par-col{
+  color: rgba(3,27,78,.5);
+  font-size: 16px;
+}
+.margin-top-col{
+  margin-top: 20px;
 }
