@@ -199,7 +199,7 @@ span{
 #customer img {
   max-width: 80%;
 }
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
   #customer li{
     width: calc((100% / 2) - 4px);
   }
