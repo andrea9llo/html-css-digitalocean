@@ -181,7 +181,7 @@ span{
 }
 
 /* blocco Customers */
-#customer{
+#customer, .sfondo-section{
   background: #f3f5f9;
 }
 
@@ -252,4 +252,25 @@ h2{
 }
 .margin-top-col{
   margin-top: 20px;
+}
+
+/* blocco developers  */
+.screenshot{
+  height: auto;
+  text-align: center;
+}
+.screenshot img{
+  max-width: 60%;
+  height: auto;
+}
+#par-img{
+  color: rgba(3,27,78,.7);
+  font-size: 17px;
+  margin-top: 20px;
+}
+.fa-circle{
+  font-size: 9px;
+  padding: 2px;
+  color: blue;
+  cursor: pointer;
 }
