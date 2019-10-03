@@ -177,3 +177,35 @@ span{
 #terms{
   text-decoration: underline;
 }
+
+/* blocco Customers */
+#customer{
+  background: #f3f5f9;
+}
+
+.text-cust{
+  text-align: center;
+  margin: 60px 0 10px 0;
+  color: rgba(0,0,0, 0.4);
+}
+
+
+#customer li{
+  display: inline-block;
+  width: calc((100% / 6) - 4px);
+  list-style-type: none;
+}
+
+#customer img {
+  max-width: 80%;
+}
+@media screen and (min-width: 767px) {
+  #customer li{
+    width: calc((100% / 2) - 4px);
+  }
+}
+.text-center-a{
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
