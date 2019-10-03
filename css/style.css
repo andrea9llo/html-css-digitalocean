@@ -263,7 +263,7 @@ h2{
   max-width: 60%;
   height: auto;
 }
-#par-img{
+.parag{
   color: rgba(3,27,78,.7);
   font-size: 17px;
   margin-top: 20px;
@@ -271,6 +271,33 @@ h2{
 .fa-circle{
   font-size: 9px;
   padding: 2px;
-  color: blue;
+  color: #0069ff;
   cursor: pointer;
+}
+
+
+/* blocco business */
+
+.margin-colonne{
+  margin-top: 80px;
+}
+.icone-col{
+  font-size: 35px;
+  color: #0069ff;
+  margin-bottom: 10px;
+}
+.business-a{
+  font-size: 17px;
+}
+
+/* blocco world */
+#mondo{
+  background-image: url("../img/data-center-map-20321538.svg");
+  background-color: #031b4e;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#color-h2{
+  color: white;
 }
