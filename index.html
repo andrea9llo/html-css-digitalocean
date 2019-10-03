@@ -8,11 +8,11 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
-    <title></title>
+    <title>DigitalOcean</title>
   </head>
   <body>
     <!-- navbar -->
-    <nav>
+    <header>
       <!-- nav sup -->
       <div class="container-fluid">
         <div class="nav-margin nav-sup">
@@ -74,7 +74,62 @@
         </div>
 
       </div>
-    </nav>
+    </header>
+
+
+    <!-- blocco di benvenuto -->
+    <section id="welcome">
+      <div class="container">
+        <div class="row">
+          <!-- colonna con testo -->
+          <div class="col-xs-12 col-md-6">
+            <h1>Welcome to the developer cloud</h1>
+            <p id="par-h1">DigitalOcean makes it simple to launch in the cloud and scale up as you grow—with an intuitive control panel, predictable pricing, team accounts and more.</p>
+          </div>
+          <!-- colonna form -->
+          <div class="col-xs-12 col-md-5 col-md-offset-1">
+            <div class="form">
+              <div class="titolo-form">
+                <h2>Deploy in seconds</h2>
+              </div>
+              <div class="form-group">
+                <input type="full name" class="form-control bordo"  placeholder="Full name">
+              </div>
+              <div class="form-group">
+                <input type="email address" class="form-control bordo"  placeholder="Email address">
+              </div>
+              <div class="form-group">
+                <input type="create a password" class="form-control bordo"  placeholder="Create a password">
+              </div>
+              <div >
+                <a id="bottom-form" class="btn btn-default send" href="#" role="button">Create your account</a>
+              </div>
+              <div class="linee">
+                <div class="icone-line marg-dx"></div>
+                <div>
+                  <span>or sign up with</span>
+                </div>
+                <div class="icone-line marg-sx"></div>
+              </div>
+              <!-- social bottoni -->
+              <div class="row">
+                <div class="col-xs-6">
+                  <a class="btn btn-default send social-bottom" href="#" role="button"><i class="fab fa-google"></i> Google</a>
+                </div>
+                <div class="col-xs-6">
+                  <a class="btn btn-default send social-bottom" href="#" role="button"><i class="fab fa-github"></i> Github</a>
+                </div>
+              </div>
+              <div class="par-form">
+                <p>By signing up you agree to the <a id="terms" href="#">Terms of Service</a>.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
 
   </body>
 </html>

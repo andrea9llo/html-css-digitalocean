@@ -1,5 +1,11 @@
 /* navbar sup */
-
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  background: white;
+}
 .nav-margin{
   width: 98%;
   margin: auto;
@@ -76,4 +82,96 @@ a:hover{
 #sign-up:hover{
   background: #0069ff;
   color: white;
+}
+.fa-bars{
+  font-size: 20px;
+  color: #0069ff;
+}
+
+/* blocco benvenuto */
+#welcome{
+  margin-top: 91px;
+  background-image: url("../img/sfondo.jpg");
+  padding: 50px 0;
+}
+/* colonna testo */
+
+h1{
+  color: #fff;
+  font-size: 65px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+#par-h1{
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* colonna form */
+.form{
+  background: white;
+  padding: 10px 4%;
+  border-radius: 4px;
+}
+.titolo-form{
+  text-align: center;
+  margin-bottom: 30px;
+}
+h2{
+  font-weight: 600;
+}
+.bordo{
+  height: 45px;
+}
+.bordo:hover{
+ border: #0069ff;
+}
+#bottom-form{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  background: #0069ff;
+  color: white;
+}
+#bottom-form:hover{
+  background: #1606ce;
+}
+.linee{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+span{
+  text-align: center;
+  color: #5b6987;
+}
+.icone-line{
+  width: 100%;
+  max-width: 100px;
+  height: 1px;
+  border-radius: 1px;
+  background: black;
+  opacity: 0.3;
+}
+.marg-dx{
+  margin-right: 20px;
+}
+.marg-sx{
+  margin-left: 20px;
+}
+
+/* bottoni social form */
+.social-bottom{
+  width: 100%;
+  font-size: 16px;
+}
+.par-form{
+  margin: 20px 0;
+  text-align: center;
+  font-size: 11px;
+}
+#terms{
+  text-decoration: underline;
 }
