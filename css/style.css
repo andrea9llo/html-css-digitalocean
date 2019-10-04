@@ -176,7 +176,7 @@ span{
   text-align: center;
   font-size: 11px;
 }
-#terms{
+.underline{
   text-decoration: underline;
 }
 
@@ -313,4 +313,27 @@ h2{
 }
 .test{
   text-align: right;
+}
+
+/* blocco development */
+.containerwhite{
+  width: 70%;
+  margin: auto;
+  background: white;
+  text-align: center;
+  padding: 25px 3% 50px;
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+.containerwhite>img{
+  max-width: 180px;
+  margin-bottom: 25px;
+}
+.containerwhite>p{
+  opacity: .5;
+}
+
+#par-rockerbox{
+  font-size: 25px;
+  margin-bottom: 25px;
 }
