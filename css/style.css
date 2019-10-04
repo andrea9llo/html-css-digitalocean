@@ -303,15 +303,22 @@ h2{
   color: white;
   margin-bottom: 60px;
 }
-.nome-citta{
+.nome-citta,.nome-citta1{
   font-weight: 600;
   color: white;
 }
-.city , td>a{
+
+.table>tbody>tr>.nome-citta1,
+.table>tbody>tr>.city1,
+.table>tbody>tr>.test1{
+  border: none
+}
+
+.city,.city1 , td>a{
   color:white;
   opacity: 0.5;
 }
-.test{
+.test,.test1{
   text-align: right;
 }
 
@@ -358,3 +365,5 @@ h2{
   background: white;
   color: #0069ff;
 }
+
+/* footer */
