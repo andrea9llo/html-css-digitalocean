@@ -279,11 +279,12 @@ h2{
 /* blocco business */
 
 .margin-colonne{
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .icone-col{
   font-size: 35px;
   color: #0069ff;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 .business-a{
