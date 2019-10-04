@@ -300,4 +300,16 @@ h2{
 
 #color-h2{
   color: white;
+  margin-bottom: 60px;
+}
+.nome-citta{
+  font-weight: 600;
+  color: white;
+}
+.city , td>a{
+  color:white;
+  opacity: 0.5;
+}
+.test{
+  text-align: right;
 }
