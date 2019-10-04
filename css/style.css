@@ -299,7 +299,7 @@ h2{
   background-size: cover;
 }
 
-#color-h2{
+.color-h2{
   color: white;
   margin-bottom: 60px;
 }
@@ -336,4 +336,25 @@ h2{
 #par-rockerbox{
   font-size: 25px;
   margin-bottom: 25px;
+}
+
+/* blocco crea account */
+#ocean{
+  background-image: url("../img/sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+#ocean>.container>.row{
+  text-align: center;
+}
+#ocean>.container>.row>.col-12-xs>h2{
+  color: white;
+}
+#bottom-ocean{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 50px;
+  background: white;
+  color: #0069ff;
 }
