@@ -41,11 +41,16 @@ li{
   .nav-sup, .display-none, .menu-nav {
     display: none;
   }
+  header{
+    position: relative;
+    }
+
 }
 @media  screen and (min-width: 1049px){
   .menu-nav2{
     display: none;
   }
+
 }
 #margine-linea{
   margin: 0;
@@ -91,7 +96,7 @@ li{
 }
 
 /* blocco benvenuto */
-#welcome{
+#welcom{
   margin-top: 91px;
   background-image: url("../img/sfondo.jpg");
   background-repeat: no-repeat;
@@ -367,3 +372,21 @@ h2{
 }
 
 /* footer */
+footer{
+  background: #010e28;
+}
+.color1{
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.color2{
+  color:white;
+  opacity: 0.5;
+  font-size: 15px;
+}
+.color2:hover{
+  color: white;
+  opacity: 1.5;
+}
