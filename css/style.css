@@ -390,3 +390,30 @@ footer{
   color: white;
   opacity: 1.5;
 }
+/* footer inf */
+
+.fa-digital-ocean{
+  font-size: 50px;
+  color: #0069ff;
+  margin-right: 10px;
+}
+.copyright{
+  vertical-align: super;
+}
+.social{
+  text-align: right;
+  margin-top: 10px;
+}
+.menu-social{
+  display: inline-block;
+  padding: 1%;
+  font-size: 22px;
+}
+.menu-social>a{
+  color:white;
+  opacity: 0.5;
+}
+.menu-social>a:hover{
+  color: white;
+  opacity: 1.5;
+}
