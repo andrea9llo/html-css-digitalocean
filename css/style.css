@@ -7,9 +7,11 @@ header{
   background: white;
 }
 .nav-margin{
-  width: 98%;
-  margin: auto;
   padding: 10px 0 0 0;
+}
+.nav-margin2{
+  background-color: #0069ff;
+  padding: 30px 0 ;
 }
 #button-nav{
   font-size: 9px;
@@ -38,17 +40,19 @@ li{
 }
 
 @media  screen and (max-width: 1048px) {
-  .nav-sup, .display-none, .menu-nav {
+  .nav-margin{
     display: none;
   }
   header{
     position: relative;
     }
-
+  body>#welcom{
+    margin-top: 0;
+  }
 }
 @media  screen and (min-width: 1049px){
-  .menu-nav2{
-    display: none;
+  .nav-margin2{
+    display:none;
   }
 
 }
@@ -57,7 +61,7 @@ li{
 }
 /* nav inferiore */
 
-#logo{
+.logo{
   width: 180px;
 }
 @media screen and (max-width: 250px) {
@@ -91,8 +95,8 @@ li{
   color: white;
 }
 .fa-bars{
-  font-size: 20px;
-  color: #0069ff;
+  font-size: 25px;
+  color: #1606ce;
 }
 
 /* blocco benvenuto */
